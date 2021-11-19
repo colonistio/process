@@ -15,7 +15,7 @@
 
 ### Pull Request Rules
 
-1. Huge commits are unreadable. Small commits are hard to follow the flow. https://github.com/colonistio/katan/pull/4357#issuecomment-857285851
+1. Huge commits are unreadable. Small commits are hard to follow the flow. https://prnt.sc/2011v5r https://gyazo.com/b9e30de2869e6ea5decc11f94767f1d1 
 2. Each commit needs to have minimum amount of changes, so it is readable and reviewable. Ideally only 1 function or file should change in a commit https://vm.tiktok.com/ZSpbnDGP/
 3. Try to find the smallest standalone piece you can can commit (Import deletion, small utility function, changing a parameter name, add a new parameter, etc..)
 4. We want clean PRs. So any `whops forgot ..`, `fix typo` etc. should be (cleaned locally)[https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History] before pushed to github PR. 
@@ -31,7 +31,7 @@
 5. Then create a todo list, and how could the architecture have been done cleanly
 6. Create a new branch
 7. Start moving code to new branch and rewrite everything but in a clean, final way
-8. If this feature will require multiple PRs, then create a general PR, then write code in parts in the PRs. Example: https://github.com/colonistio/katan/pull/3946
+8. If this feature will require multiple PRs, then create a master PR, then write code in parts in the PRs. Example: https://prnt.sc/2011xo4 https://github.com/colonistio/katan/pull/3946
 
 ### Code Complete Tips
 
