@@ -30,7 +30,7 @@ Here are some guidelines to follow when you're reviewing code:
 - Normal Merge:
     - When a multi-PR `master` branch is being merged into `development`. Ex normal merge `jeff/master-Cities-and-knights` into `development`
 - These rules are being added to keep commit history clean while making it easy to revert PRs if needed
-- More examples: https://github.com/colonistio/katan/pull/3649#issuecomment-779654090
+- More examples: https://prnt.sc/201291q https://github.com/colonistio/katan/pull/3649#issuecomment-779654090
 
 Source: 
 - https://softwareengineering.stackexchange.com/questions/261801/how-to-deal-with-no-code-reviews-in-my-new-place-when-i-come-from-that-practice/261814
