@@ -8,7 +8,7 @@ Read this: https://stackoverflow.com/questions/3875114/why-use-a-for-loop-instea
 
 An ideal PR size is between 5-10 commits. It can go up to 20. Expect any PR above 20 commits to be closed without being merged. https://vm.tiktok.com/ZSpbnDGP/
 
-To better manage large pull requests or new edits for a pull requests, use a [squash merge](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops#what-is-a-squash-merge). A good example of this can be seen [here](https://github.com/colonistio/katan/pull/4629). Notice how each commit is from a separate branch with multiple commits of its own. A squash merge allows us to pack those commits into one, making the main pull request easier to manageable and to follow.
+To better manage large pull requests or new edits for a pull requests, use a [squash merge](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops#what-is-a-squash-merge). A good example of this can be seen [here](https://prnt.sc/2011xo4). Notice how each commit is from a separate branch with multiple commits of its own. A squash merge allows us to pack those commits into one, making the main pull request easier to manageable and to follow.
 
 ### PR Does Multiple Things
 
@@ -18,13 +18,13 @@ Always follow the "Single Responsibility Principle"
 
 Just like classes and modules, pull requests should do only one thing.
 
-Before submitting a PR for review, try applying the principle of single responsibility. If this code is doing more than one thing, break it into other Pull Requests.
+Before submitting a PR for review, try applying SRP. If this code is doing more than one thing, break it into other Pull Requests.
 
 Source: https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067
 
 ### PR Not Descriptive
 
-Imagine that the code reviewer is arriving in your team today without knowing what is going on, and even so, they should be able to understand the changes.
+Imagine that the code reviewer is coming back from vacation, not knowing what is going on. Even so, they should be able to understand the changes.
 
 Title:
 
@@ -35,9 +35,9 @@ Description:
 - Describe what was changed in the pull request.
 - Explain why this PR exists.
 - Make it clear how it does what it sets out to do. E.g: Does it change a column in the database? How is this being done? What happens to the old data?
-- Use screenshots to demonstrate what has changed.
+- For UI changes use screenshots to demonstrate what has changed.
 
-Good examples: https://github.com/colonistio/katan/pull/2960
+Good examples: https://gyazo.com/81dd9f76e9087429344e817b94065048 & https://prnt.sc/20121j8
 
 Source: https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067
 
@@ -59,7 +59,7 @@ After you finish implementing a suggestion resolve the conversation https://prnt
 
 Break down your commits into the smallest commit that represents a cohesive feature that is in a build-able state.
 
-Example: https://github.com/colonistio/katan/commit/d2c69b7ecd7aa7eaf822e493b09422b3d1668b34
+Example: https://github.com/colonistio/katan/commit/d2c69b7ecd7aa7eaf822e493b09422b3d1668b34 https://gyazo.com/3e4635022a00a125a71cbc24ba3bf226
 
 This commit can be broken down into 
 
