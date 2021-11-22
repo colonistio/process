@@ -1,6 +1,6 @@
 # Coding
 
-### General Rules
+## General Rules
 
 1. Never work on the master or staging branches
 2. Always work on a custom branch dedicated to your feature
@@ -13,7 +13,7 @@
 9. Create Issues for projects changing significant parts of the code or is a mid & long term project. The aim of issues is to let others know that something is being worked on and discussing about its design. There is no need to create an issue for a small PR you're going to fix quickly that won't effect others code. 
 10. Follow your notifications on github and make sure to check out their type so you don't miss anything important https://prnt.sc/w3kshv
 
-### Pull Request Rules
+## Pull Request Rules
 
 1. Huge commits are unreadable. Small commits are hard to follow the flow. https://prnt.sc/2011v5r https://gyazo.com/b9e30de2869e6ea5decc11f94767f1d1 
 2. Each commit needs to have minimum amount of changes, so it is readable and reviewable. Ideally only 1 function or file should change in a commit https://vm.tiktok.com/ZSpbnDGP/
@@ -22,7 +22,7 @@
 5. Every change that you do should be added to PatchNoteData.ts under your name. When we are creating a new build we organize them. 
 6. If a PR has been active for 14 days and not been merged it should be closed and opened a new one.
 
-### Large Update Rules
+## Large Update Rules
 
 1. If you're doing a big feature, first create a branch, do a rough version of the feature that works, without worrying much about commit readability and architecture
 2. Push that branch to Github as a draft PR
@@ -33,7 +33,7 @@
 7. Start moving code to new branch and rewrite everything but in a clean, final way
 8. If this feature will require multiple PRs, then create a master PR, then write code in parts in the PRs. Example: https://prnt.sc/2011xo4 https://github.com/colonistio/katan/pull/3946
 
-### Code Complete Tips
+## Code Complete Tips
 
 Program defensively: recognize that mistakes will be made and program in such a way that catches and handles those mistakes as quickly as possible
 - Anticipate change
