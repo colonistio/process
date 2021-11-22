@@ -16,14 +16,14 @@ Our notes on the most common Game Programming Patterns.
 
 #### Common Colonist Patterns:
 
-- *Command=>User inputs, rebind keys, replay systems, undo/redo
-- *Observer=>Achievement, do action after event
-- *State=>Multiple states, screens, enums, turn, too many if nests, character, object>enum
-- *Update=>Update objects via graphics, network, sockets
-- *Subclass Sandbox=>similar objects with different behavior
-- *Type Object=>Direct class inheritance doesn't work, ex: ostrich, bird but can't fly
-- *Service Locator=>Like singleton, all services organized together
-- *Dirty Flag=>Costly operations. Track objects updated
+- Command=>User inputs, rebind keys, replay systems, undo/redo
+- Observer=>Achievement, do action after event
+- State=>Multiple states, screens, enums, turn, too many if nests, character, object>enum
+- Update=>Update objects via graphics, network, sockets
+- Subclass Sandbox=>similar objects with different behavior
+- Type Object=>Direct class inheritance doesn't work, ex: ostrich, bird but can't fly
+- Service Locator=>Like singleton, all services organized together
+- Dirty Flag=>Costly operations. Track objects updated
 
 #### Extra Patterns:
 
