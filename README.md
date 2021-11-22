@@ -8,7 +8,7 @@ General Coding:
 - [PR Review](https://github.com/colonistio/process/blob/main/pr-review.md)
 
 Tools:
-- [Maintanence](https://github.com/colonistio/process/blob/main/maintenance.md)
+- [Maintenance](https://github.com/colonistio/process/blob/main/maintenance.md)
 - [Debugging](https://github.com/colonistio/process/blob/main/debugging.md)
 - [Docker](https://github.com/colonistio/process/blob/main/docker.md)
 - [Updating NPM Packages](https://github.com/colonistio/process/blob/main/updating-npm-packages.md)
