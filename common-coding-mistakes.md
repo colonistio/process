@@ -1,16 +1,16 @@
 # Common Coding Mistakes
 
-### Avoid Using While Loop
+## Avoid Using While Loop
 
 Read this: https://stackoverflow.com/questions/3875114/why-use-a-for-loop-instead-of-a-while-loop/3875142#3875142
 
-### PR Too Long
+## PR Too Long
 
 An ideal PR size is between 5-10 commits. It can go up to 20. Expect any PR above 20 commits to be closed without being merged. https://vm.tiktok.com/ZSpbnDGP/
 
 To better manage large pull requests or new edits for a pull requests, use a [squash merge](https://docs.microsoft.com/en-us/azure/devops/repos/git/merging-with-squash?view=azure-devops#what-is-a-squash-merge). A good example of this can be seen [here](https://prnt.sc/2011xo4). Notice how each commit is from a separate branch with multiple commits of its own. A squash merge allows us to pack those commits into one, making the main pull request easier to manageable and to follow.
 
-### PR Does Multiple Things
+## PR Does Multiple Things
 
 Always follow the "Single Responsibility Principle"
 
@@ -22,7 +22,7 @@ Before submitting a PR for review, try applying SRP. If this code is doing more 
 
 Source: https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067
 
-### PR Not Descriptive
+## PR Not Descriptive
 
 Imagine that the code reviewer is coming back from vacation, not knowing what is going on. Even so, they should be able to understand the changes.
 
@@ -41,12 +41,12 @@ Good examples: https://gyazo.com/81dd9f76e9087429344e817b94065048 & https://prnt
 
 Source: https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067
 
-### Use early breaks instead of if/else
+## Use early breaks instead of if/else
 
 Read: https://jamesmonger.com/2019/08/06/return-early-return-often.html
 Read: https://raquo.net/2016/01/guard-statement-swift/
 
-### Request review
+## Request review
 
 When you edit something in a PR always re-request review https://prnt.sc/vk2shw
 
@@ -55,7 +55,7 @@ When you edit something in a PR always re-request review https://prnt.sc/vk2shw
 After you finish implementing a suggestion resolve the conversation https://prnt.sc/vo06a2
 
 
-### Commit Too Big
+## Commit Too Big
 
 Break down your commits into the smallest commit that represents a cohesive feature that is in a build-able state.
 
@@ -75,7 +75,7 @@ Merging big commits result in
 - Possibility of missing a problem during review
 - Lower code quality
 
-### Duplicate commit
+## Duplicate commit
 
 When you want to move a certain code from one place to another never separate the commit into `add commit` and `remove commit`. They should be in a single commit which is a `move commit`
 
@@ -83,7 +83,7 @@ When the developer does an `add commit` in hopes of deleting the original code i
 
 Example: https://github.com/colonistio/katan/pull/5033#discussion_r702648574
 
-### Add Patch Note
+## Add Patch Note
 
 - If you are changing logic, add it to PatchNoteData.ts. 
 - If there is a relevant suggestion on [featureupvote](https://colonist.featureupvote.com), paste its link.
@@ -96,6 +96,6 @@ Hidden patchnotes help in 2 ways
 - making sure testers test those before releasing 
 - if something breaks later on, its easier to search in the patchnote file and find the potential problem
 
-### Other Resources
+## Other Resources
 - [Clean Code](https://github.com/trantuyen1998/clean-code-javascript). A summarize version of the Clean Code book adapted to JavaScript.
 - [Pull Requests and Commits](https://faun.pub/the-art-of-a-well-composed-pull-request-3815fc7e9610). Read this if you're having difficulty with commits or pull requests.
