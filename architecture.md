@@ -1,4 +1,3 @@
-
 ## Architecture Checklist:
 
 For every new feature:
@@ -11,7 +10,7 @@ For every new feature:
 - Draw the network connection architecture
 - Write the functions, passed variables, returns
 
-### Architectural Patterns
+### Architectural Patterns:
 
 Here are our notes on the most common Game Programming Patterns:
 
@@ -35,14 +34,17 @@ Here are our notes on the most common Game Programming Patterns:
 - Object Pool=>Deactivates and reuse objects
 - Spatial Partition=>Store many objects like map/grid, path finding, collision detection, ray tracing
 
+#### Common Colonist Patterns:
 Ones marked with * are the commonly used patterns in colonist
 
-Source:  
+#### Extra Patterns:
+
+### Source:
 https://gameprogrammingpatterns.com/contents.html  
 https://github.com/Habrador/Unity-Programming-Patterns  
 https://github.com/Habrador/Unity-Programming-Patterns/tree/master/Assets/Patterns  
 
-Extra Study Sources:  
+### Extra Study Sources:
 https://www.youtube.com/watch?v=Eyr7_l5NMds  
 https://www.youtube.com/watch?v=wYkzeKghjsI  
 https://www.youtube.com/watch?v=eXPBR3WlRGY  
