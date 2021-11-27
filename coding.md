@@ -12,6 +12,20 @@
 8. If a code/logic is hard to understand first create a PR that refactors that part of the code, once its approved create the new feature
 9. Create Issues for projects changing significant parts of the code or is a mid & long term project. The aim of issues is to let others know that something is being worked on and discussing about its design. There is no need to create an issue for a small PR you're going to fix quickly that won't effect others code. 
 10. Follow your notifications on github and make sure to check out their type so you don't miss anything important https://prnt.sc/w3kshv
+11. Naming schema should be as follows, some previously written code might not fit this method. But they should be refactored and new code should be written accordingly 
+
+```
+import {PascalCaseClass} from './code/snake_case_folder/kebab-case-file'
+
+PascalCaseClass {
+
+        camelCaseVariable: string
+
+        camelCaseFunction() {
+        
+        } 
+}
+```
 
 ## Pull Request Rules
 
