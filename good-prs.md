@@ -4,7 +4,7 @@ Here are the most common reasons for edit requests on PRs, try not to repeat the
 
 1. If you're changing logic, run tests before and after to make sure nothing broke
 2. If you're changing logic, add it to patch note, find if there is a relevant suggestion and paste it's link: https://colonist.featureupvote.com/ . If you're a contributor add Thanks (your_colonist_username) in there
-3. Branch naming convention: `your_short_name/feature-description`
+3. Branch naming convention: `your_short_name/feature-description`. Follow https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html, and don't use any special characters like `'`, just to be safe.
 4. Run linter on all files you edited before pushing the PR
 5. If you just remembered a line of code that should've been added to the last commit, you should amend that line to last commit here: https://prnt.sc/v0t4ld
 6. Complex if cases: https://prnt.sc/2012517 https://github.com/colonistio/katan/pull/2241#discussion_r460682386
