@@ -105,6 +105,10 @@ Delete Everything
 ```
 docker system prune -a
 ```
+Delete All Containers
+```
+docker rm -f $(docker ps -a -q)
+```
 
 ## Info
 
