@@ -25,10 +25,10 @@ Here are some guidelines to follow when you're reviewing code:
 ## Merging Branches
 
 - Squash Merge:
-    - When a smaller PR is being merged into a master branch. (Ex squash merge `jeff/adding-knight-logic` into `jeff/master-Cities-and-knights`)
+    - When a smaller PR is being merged into a main branch. (Ex squash merge `jeff/adding-knight-logic` into `jeff/main-Cities-and-knights`)
     - When a standalone PR is being merged directly into `development`. (Ex squash merge `jeff/fix-longest-road-bug` into `development`)
 - Normal Merge:
-    - When a multi-PR `master` or `staging` branch is being merged into `development`. (Ex normal merge `jeff/master-Cities-and-knights` into `development`)
+    - When a multi-PR `master` or `staging` branch is being merged into `development`. (Ex normal merge `staging` into `development`)
 - These rules are being added to keep commit history clean while making it easy to revert PRs if needed
 - More examples: https://prnt.sc/201291q https://github.com/colonistio/katan/pull/3649#issuecomment-779654090
 
