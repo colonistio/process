@@ -81,6 +81,10 @@ Unpause container
 ```
 docker unpause katanio
 ```
+Stop container
+```
+docker stop katanio
+```
 Connect to other container bash
 ```
 docker exec -it katanio bash
